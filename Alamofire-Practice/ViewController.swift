@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var outputLabel: UILabel!
     
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         outputLabel.text = "Alamofire にゃーん"
@@ -27,7 +29,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonPushedEvent(_ sender: Any) {
-        SendPostRequestToLineNotify("にゃ〜ん")
+        SendPostRequestToLineNotify(textView.text+"♡")
     }
     func SendPostRequestToLineNotify(_ message: String) {
         outputLabel.text = message
