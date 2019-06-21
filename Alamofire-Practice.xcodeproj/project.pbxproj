@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		401235F722BD23B300676B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401235F522BD23B300676B21 /* Main.storyboard */; };
 		401235F922BD23B400676B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401235F822BD23B400676B21 /* Assets.xcassets */; };
 		401235FC22BD23B400676B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401235FA22BD23B400676B21 /* LaunchScreen.storyboard */; };
+		4012360422BD2E1A00676B21 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 4012360322BD2E1A00676B21 /* .env */; };
+		4012360622BD2ECE00676B21 /* .env.sample in Resources */ = {isa = PBXBuildFile; fileRef = 4012360522BD2ECE00676B21 /* .env.sample */; };
 		F77C1A6A51E0627BCE4BDFDA /* Pods_Alamofire_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F5432822DC4757E5578DF /* Pods_Alamofire_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		401235F822BD23B400676B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401235FB22BD23B400676B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		401235FD22BD23B400676B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4012360322BD2E1A00676B21 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		4012360522BD2ECE00676B21 /* .env.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.sample; sourceTree = "<group>"; };
 		669F5432822DC4757E5578DF /* Pods_Alamofire_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,8 @@
 				401235F822BD23B400676B21 /* Assets.xcassets */,
 				401235FA22BD23B400676B21 /* LaunchScreen.storyboard */,
 				401235FD22BD23B400676B21 /* Info.plist */,
+				4012360322BD2E1A00676B21 /* .env */,
+				4012360522BD2ECE00676B21 /* .env.sample */,
 			);
 			path = "Alamofire-Practice";
 			sourceTree = "<group>";
@@ -85,7 +91,6 @@
 				1256AE6D335839768662AE9A /* Pods-Alamofire-Practice.debug.xcconfig */,
 				2A45BBFB681207E7E0253DB0 /* Pods-Alamofire-Practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +157,8 @@
 				401235FC22BD23B400676B21 /* LaunchScreen.storyboard in Resources */,
 				401235F922BD23B400676B21 /* Assets.xcassets in Resources */,
 				401235F722BD23B300676B21 /* Main.storyboard in Resources */,
+				4012360622BD2ECE00676B21 /* .env.sample in Resources */,
+				4012360422BD2E1A00676B21 /* .env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
