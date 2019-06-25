@@ -46,6 +46,9 @@ Swift	5.0.1
 ## 勉強会内容
 上記のブランチにそって、UITextViewを使用してLINENotifyにTextViewに入力された文字列を送信するところまでみんなでやった。
 復習できる様に課題も出しました。
+
+## demo
+![ap_2_iOS_Alamofire-Practice/RPReplay_Final1561371210.gif at readme · 2019-miraikeitai-org/ap_2_iOS_Alamofire-Practice](https://github.com/2019-miraikeitai-org/ap_2_iOS_Alamofire-Practice/blob/readme/demo/RPReplay_Final1561371210.gif)
 ### 課題内容 (iOS班Slackに投稿されたものをコピー)
 1. 今日作ったアプリをGitHubにあげよう
 - 自分のアカウントにリポジトリを作って、ファイルを共有しよう。
